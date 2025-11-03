@@ -2,9 +2,11 @@ package main
 
 import (
 	"fmt"
+	"os"
 )
 
 func main() {
-	fmt.Println("expense-tracker")
-	fmt.Println("How do i go about doing this project???")
+	args := os.Args[1:]
+	fmt.Println(args)
+
 }
